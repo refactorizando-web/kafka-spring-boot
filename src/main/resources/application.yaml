@@ -1,0 +1,19 @@
+kafka.topic.name: test-strimzi-topic
+
+
+spring:
+  kafka:
+    security:
+      protocol: "SSL"
+    bootstrap-servers: 127.0.0.1:9094
+    ssl:
+      trust-store-location: classpath:/kafka.jks
+      trust-store-password: changeit
+    consumer:
+      group-id: demo-group-id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
