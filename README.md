@@ -6,7 +6,8 @@ El objetivo de este ejemplo es poder enviar y recibir mensajes con kafka en Spri
 
 ## Artículos
 
- * [Kafka con Spring Boot Parte Uno](https://refactorizando.com/kafka-spring-boot-parte-uno/)
+ * Spanish: [Kafka con Spring Boot Parte Uno](https://refactorizando.com/kafka-spring-boot-parte-uno/)
+ * English: [Kafka with Spring Boot](https://refactorizando.com/en/kafka-in-spring-boot-with-example/)
  * [Kafka con Strimzi en Kubernetes](https://refactorizando.com/kafka-kubernetes-strimzi/)
 
 ## Configuración
